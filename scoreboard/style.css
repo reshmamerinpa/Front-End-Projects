@@ -1,0 +1,166 @@
+
+
+img{
+  display: flex;
+  justify-content: flex-end;
+margin-left: 80%;
+}
+a{
+  text-decoration: none;
+}
+.item1{
+  font-size:40px;
+  font-style:normal;
+  color: black;
+  margin-left: 15%;
+}
+.item2{
+  margin-left: 15%;
+  color: gray;
+  font-size: 20px;
+}
+.image{
+
+  margin-left: 10%;
+  height: 15%;
+  width: 30%;
+position: absolute;
+z-index: 1;
+margin-top: 3%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  background-color: #fff;
+  color: #444;
+  max-width:  800px;
+margin-top: 3%;
+margin-left: 15%;
+position: absolute;
+z-index: 2;
+align-items: stretch;
+}
+
+.box1{
+  display: grid;
+grid-template-columns: repeat(2,7fr);
+  background-color: red;
+  color: white;
+  border-radius: 0px;
+  border-color: black;
+  padding: 10px;
+  font-size: 20px;
+  grid-column-gap:  1em;
+  }
+
+  .box2{
+    display: grid;
+  grid-template-columns: repeat(7,7fr);
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 20px;
+    grid-column-gap: 1em;
+ text-decoration-style:solid;
+    }
+
+    .box3{
+      display: grid;
+    grid-template-columns: repeat(7,7fr);
+      background-color: white;
+      color: black;
+      border-radius: 0px;
+      border-color: black;
+      padding: 10px;
+      font-size: 15px;
+      grid-column-gap:  1em;
+      }
+      .box4{
+        display: grid;
+      grid-template-columns: repeat(7,7fr);
+        background-color: white;
+        color: black;
+        border-radius: 0px;
+        border-color: black;
+        padding: 10px;
+        font-size: 15px;
+        grid-column-gap:  1em;
+        }
+        .box5{
+          display: grid;
+        grid-template-columns: repeat(7,7fr);
+          background-color: white;
+          color: black;
+          border-radius: 0px;
+          border-color: black;
+          padding: 10px;
+          font-size: 15px;
+          grid-column-gap:  1em;
+          }
+          .box6{
+            display: grid;
+          grid-template-columns: repeat(7,7fr);
+            background-color: white;
+            color: black;
+            border-radius: 0px;
+            border-color: black;
+            padding: 10px;
+            font-size: 15px;
+            grid-column-gap:  1em;
+            }
+            .box7{
+              display: grid;
+            grid-template-columns: repeat(7,7fr);
+              background-color: white;
+              color: black;
+              border-radius: 0px;
+              border-color: black;
+              padding: 10px;
+              font-size: 15px;
+              grid-column-gap:  1em;
+              }
+              .box8{
+                display: grid;
+              grid-template-columns: repeat(7,7fr);
+                background-color: white;
+                color: black;
+                border-radius: 0px;
+                border-color: black;
+                padding: 10px;
+                font-size: 15px;
+                grid-column-gap:  1em;
+                }
+                .box9{
+                  display: grid;
+                grid-template-columns: repeat(2,7fr);
+                  background-color: white;
+                  color: black;
+                  border-radius: 0px;
+                  border-color: black;
+                  padding: 10px;
+                  font-size: 15px;
+                  grid-column-gap:  1em;
+                  }
+                  .box10{
+                    display: grid;
+                  grid-template-columns: repeat(2,7fr);
+                    background-color: white;
+                    color: black;
+                    border-radius: 0px;
+                    border-color: black;
+                    padding: 10px;
+                    font-size: 15px;
+                    grid-column-gap:  1em;
+                    }
+                    .box11{
+                      display: grid;
+                    grid-template-columns: repeat(2,2fr);
+                      background-color: white;
+                      color: black;
+                      border-radius: 0px;
+                      border-color: black;
+                      padding: 10px;
+                      font-size: 15px;
+                      grid-column-gap:  1em;
+                      }
