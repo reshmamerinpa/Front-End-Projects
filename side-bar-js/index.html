@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--FONTAWESOME LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <div class="head-content">
+            <p>select number of boxes</p>
+            <input type="number" min="1" max="5" id="boxcount" class="boxcount btnstyle" value=1>
+            <input type="checkbox" id="color_yellow" class="color_yellow" >
+            <label for="color_yellow">Select Yellow Color</label>
+            <button class="add-btn btnstyle" onclick="addbox()">ADD BOX</button>
+        </div>
+        <div class="content">
+            <input type="checkbox" id="toggle-check" class="toggle-check" onclick="toggleFunction()">
+            <div class="side-bar" id="side-bar">    
+                <div class="toggle-btn"><label for="toggle-check" class="icon" ></label></div>   
+                <ul class="side-nav">
+                   <li class="nav-item active">
+                        <a href="#"><i class="fas fa-file-alt"></i><span>navigation 1</span></a>
+                    </li>
+                    <li class="nav-item" >
+                        <a href="#"><i class="fas fa-file-alt"></i><span>navigation 1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-file-alt"></i><span>navigation 1</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-bar">
+                <div class="main-content">
+                    <div class="box-container" id="box-container">
+                        <div class="box"><i class="far fa-times-circle"></i></div>
+                        <div class="box"><i class="far fa-times-circle"></i></div>
+                    </div>
+                </div>
+                <div class="footer-class">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
