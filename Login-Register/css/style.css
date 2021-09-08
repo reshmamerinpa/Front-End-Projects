@@ -1,0 +1,206 @@
+body
+{
+    margin:0;
+}
+.page-wrapper
+{
+    align-items: center;
+    background-color: #4aa272;
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    
+}
+.container
+{  
+    width: 350px;
+    background: #ffffff;
+}
+.header
+{
+    display: flex;
+  
+}
+.login,.register
+{   
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-family: monospace;
+    font-weight: 800;
+    color: black;
+    padding: 15px 0px;
+}
+.register
+{   
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-family: monospace;
+    font-weight: 800;
+    color: white;
+    padding: 15px 0px;
+}
+.content-login
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+.email
+{
+  margin-top: 30px;
+}
+.email,.password{
+  font-family: monospace;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 40px;
+}
+.type-email,.type-password
+{
+  width: 280px;
+  border: 0px;
+  border-bottom: 1px solid;
+  margin-left: 8px;
+}
+
+.content-login input:focus{
+  outline:none;
+  border-bottom: 1px solid;
+  }
+  .content-login input:hover
+  {
+    border-bottom:#cccccc 1px solid;
+  }
+.content-register
+{
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  display: none;
+ }
+ .content-register input:focus{
+  outline:none;
+  border-bottom: 1px solid;
+  }
+  .content-register input:hover
+  {
+    border-bottom:#cccccc 1px solid;
+  }
+ .container.active .content-register
+{
+  display: flex;
+}
+.container.active .register
+{
+ background-color: white;
+ color:black;
+}
+.container.active .content-login
+{
+  display: none;
+}
+.container.active .login
+{
+ background-color:#e1e1e1;
+ color:white;
+}
+.register-name
+{
+  margin-top: 30px;
+}
+.register-name,.register-email,.register-password,.register-cpassword,.btn-register
+{
+  font-family: monospace;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.type-regname,.type-regemail,.type-regpassword,.type-cpassword
+{
+  width: 280px;
+  border: 0px;
+  border-bottom: 1px solid;
+  margin-top: 5px; 
+}
+.btn-section{
+  display: flex;
+  margin-top: 36px;
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-section a
+{
+  text-decoration: none;
+  font-size: 14px;
+}
+.btn-signin
+{
+  background-color: #4aa272;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 90px;
+ 
+}
+.btn-signin:hover
+{
+  background-color:#34b36d ;
+  cursor: pointer;
+}
+
+.btn-register
+{
+  display: flex;
+  justify-content:flex-end;
+
+}
+.register-btn:hover
+{
+  background-color:#34b36d ;
+  cursor: pointer;
+}
+
+.register-btn{
+  background-color: #4aa272;
+  border: none;
+  color: white;
+  padding: 10px;
+  width: 90px;
+}
+.footer
+{
+ margin-top: 36px;
+}
+.facebook-icon,.google-icon
+{
+ display: flex;
+ text-decoration: none;
+}
+.facebook,.google
+{
+align-content: center;
+background-color: #3064a0;
+display: flex;
+flex-wrap: wrap;
+flex: 1 0 auto;
+color: white;
+font-size: 12px;
+padding-left: 30px;
+font-family: monospace;
+}
+.google
+{
+ background-color: #c84b49;
+}
+.facebook span,.google span
+{
+ font-size: 13px;
+ padding-left: 7px;
+}
+
