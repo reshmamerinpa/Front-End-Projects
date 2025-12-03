@@ -13,8 +13,8 @@ body {
 }
 .section {
     background-color: #006622;
-    height: 100px;
+    height: 130px;
     border: 1px solid orange;
-    width: Calc( 100%/3 - 2px);
+    width: Calc( 100%/5 - 2px);
 }
 
