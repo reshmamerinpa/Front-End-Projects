@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Images</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="wrapper">
+       <div class="container page1 ">
+           <h1>please see the image and color carefully</h1>
+           <div class="imagebox">
+                <img src="images/mug/1.svg" alt="mug-image-1">
+                <div>
+                    <span class="number">1</span>
+                </div>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/2.svg" alt="mug-image-2">
+                <span class="number">2</span>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/3.svg" alt="mug-image-3">
+                <span class="number">3</span>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/4.svg" alt="mug-image-4">
+                <span class="number">4</span>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/5.svg" alt="mug-image-5">
+                <span class="number">5</span>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/6.svg" alt="mug-image-6">
+                <span class="number">6</span>
+           </div>
+           <div class="imagebox">
+                <img src="images/mug/7.svg" alt="mug-image-7">
+                <span class="number">7</span>
+           </div>
+       </div>
+<!-- PAGE 2-->
+       <div class="container page2 ">
+        <h1>Find the correct image name</h1>
+        <div class="imagebox">
+            <img class = "changeimage" src="images/mug/1.svg" alt="mug-image-1">
+            <div class="img-number">
+                <span class="number" value=1><a href="">1</a></span>
+                <span class="number" value="2"><a href="">2</a></span>
+                <span class="number" value="3"><a href="">3</a></span>
+                <span class="number" value="4"><a href="">4</a></span>
+                <span class="number" value="5"><a href="">5</a></span>
+                <span class="number" value="6"><a href="">6</a></span>
+                <span class="number" value="7"><a href="">7</a></span>
+            </div>
+            <button class="randomChange" onclick = "randomImg()">change Image</button>
+            <button class="norepeat" onclick = "norepeat()">click to no repeat number</button>
+        </div> 
+    </div>
+   </div> 
+   <script src="js/script.js"></script>
+</body>
+</html>

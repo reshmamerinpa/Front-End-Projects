@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.d-none{
+    display:none;
+}
+.imagebox{
+    display: inline-block;
+    margin-top: 20px;
+}
+.imagebox  span{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    background: blue;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 45px;
+    margin:0 auto;
+}
+.img-number span{
+    display: inline-block;
+}
