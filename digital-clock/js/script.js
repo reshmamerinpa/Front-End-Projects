@@ -21,7 +21,6 @@ function clock() {
         seconds = "0" + seconds;
     }
     document.getElementsByClassName('time')[0].innerHTML = hour + ":" + minute + ":" + seconds + " " + meridiem;
-
     setTimeout('clock()', 1000);
 }
 clock();
