@@ -1,0 +1,29 @@
+body{
+    background-color: lavender;
+}
+
+
+h1
+ {
+    text-align: center;
+    color:mediumorchid;
+}
+
+p.para1
+{
+    color: blue;
+}
+
+
+#para2{
+    color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    color: red;
+}
+/*
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */

@@ -1,0 +1,106 @@
+body{
+
+    background-image:url("dark-wood.jpg");
+    background-size:100% 200%;
+    }
+    .main{
+    background-color:white;
+    width:72%;
+    height:100%;
+    margin-left:15% ;
+    margin-right:30% ;
+    border-radius:0%;
+    box-shadow:0px 11px 35px 2px;
+    box-shadow:10%;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #d6d6c2;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: #111;
+    }
+    
+    .image{
+    
+      background-repeat:no-repeat;
+    
+     margin-left: 200px;
+     margin-top:170px;
+     height: 66%;
+      width: 300px;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: none;
+      overflow-x: hidden;
+      padding-top: 50px;
+    
+        }
+    figure{
+    
+      width:90%;
+      height: 41%;
+      color:#A9A8A9;
+      padding: 0.5%;
+      margin-left: 3%;
+      margin-top: 0%;
+      float: left;
+      border:1px silver solid;
+    }
+    
+    .veg{
+      margin-left: 40%;
+    
+    }
+    .pop{
+    /*  margin-left: 75%;
+      margin-top:0%;*/
+      margin-left: 860px;
+      margin-top:170px;
+      height: 66%;
+       width: 200px;
+       position: absolute;
+       z-index: 1;
+       top: 0;
+       left: 0;
+       background-color: none;
+       overflow-x: hidden;
+       padding-top: 50px;
+        padding-left: 20px;
+      border-left: 1px silver solid ;
+    }
+    footer {
+    
+    
+      position: absolute;
+      color:white;
+      padding: .5%;
+    padding-left: 3%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    font-size:100%;
+    text-decoration:none;
+         width: 67.7%;
+         height:3%;
+         background-color: gray;
+         margin-left:14.7%;
+    }
+    
