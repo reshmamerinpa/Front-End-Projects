@@ -1,0 +1,11 @@
+p{
+    font-size: 1rem;
+}
+article{
+    p{
+        color:red;
+        a{
+            color:green;
+        }
+    }
+}
