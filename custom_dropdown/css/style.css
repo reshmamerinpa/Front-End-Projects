@@ -1,0 +1,102 @@
+
+.custom-dropdown{
+  display: flex;
+  flex-direction: column;
+  width:225px;
+}
+.dropdown{
+  display: flex;
+  align-items: center;
+  background-color: #44a8fd;
+  flex-direction: row;
+  padding: 6px;
+  margin: 6px;
+  
+}
+.dropdown img{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  pointer-events: none;
+}
+.filetype
+{
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  display: flex;
+  padding: 6px;
+  align-items: center;
+  position: absolute;
+  padding-left: 37px;
+  pointer-events: none;
+}
+.dropdown-list
+{
+  display: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.listbox-button
+{
+  height: 32px;
+  opacity: 0;
+  width: 209px;
+}
+.down-arrow-status 
+{
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  height: 8px;
+  left: 204px;
+  position: absolute;
+  top: 30px;
+  transform: rotate(45deg);
+  width: 8px;  
+  pointer-events: none;
+}
+
+.dpdn-listbox li {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  align-items: center;
+  height: 35px;
+  background-color: #ffffff;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+.dpdn-listbox{
+  padding-left: 0;
+  border: 1px solid #e1eaf0;
+  margin-top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dpdn-listbox li img{
+  width: 25px;
+  height: 25px;
+ 
+}
+.dpdn-listbox li a{
+  color:#c1c7d7;
+  font-family: monospace;
+  font-size:15px;
+  margin-left: 10px;
+}
+.dpdn-listbox li:hover{
+
+  border-left: 3px solid #32a0fe;
+  color: #9fa7bb;
+  background-color: #eff3f7;
+
+}
+.dpdn-listbox li:hover a{
+  color: #9fa7bb;
+}
+.dropdown-list.collapsed 
+ {
+  display:flex;
+  flex-direction: column;
+ }

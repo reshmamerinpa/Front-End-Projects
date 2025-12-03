@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DropDown</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="custom-dropdown">
+            <div class="dropdown">
+              <button class="listbox-button" id="list-button" aria-haspopup="listbox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="fileType"></button> 
+              <img src="./images/icon.jpg" alt="filetypeImage" class="icon">
+              <label for="list-button" class="filetype" id="id-filetype" >FileType</label>  
+              <span class="down-arrow-status"></span>
+                              
+            </div>
+            <div class="dropdown-list">
+                <ul class="dpdn-listbox" role="listbox" id="filetypeList" >
+                    <li class="options"  id="markupHtml1" role="option">
+                        <img src="./images/icon.jpg" alt="markupHtml1-Img" class="icon"><a>Markup HTML </a>
+                    </li>
+                    <li class="options" id="photoshoppdf" role="option">
+                       <img src="./images/icon.jpg" alt="photoshoppdf-Img" class="icon"><a>Photoshop PDF</a>
+                    </li>
+                    <li class="options" id="illustratorai"  role="option">
+                        <img src="./images/icon.jpg" alt="illustratorai-Img" class="icon"><a>Illustrator AI</a>
+                    </li>
+                    <li class="options" id="sketch"  role="option">
+                        <img src="./images/icon.jpg" alt="sketch-Img" class="icon"><a>sketch.sketch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+       <script src="./js/script.js"></script>
+    </body>
+</html>
