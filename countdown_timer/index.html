@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Count-Down-Timer</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="showtimer">
+                 <div class="time">
+                    
+                   
+                        <div class="hour-div">
+                            <label for="" class="labelhour">Hour</label>
+                            <input  type="number" class="hour"  value="0" min="1" max="12">
+                        </div>
+                        <div class="minute-div">
+                            <label for="" class="labelminute">Minutes</label>
+                            <input  type="number" class="minute" value="0" min="0" max="59">
+                        </div>
+                        <div class="seconds-div">
+                            <label for="" class="labelseconds">Seconds</label>
+                            <input  type="number" class="second"  value="0" min="0" max="59">
+                        </div>
+                      
+                   <!--  <span class="hour" value="0">00</span>:
+                    <span class="minute" value="0">00</span>:
+                    <span class="second" value="0">00</span>-->
+                 </div>
+                 <div class="button">
+                    <button class="start">start</button>
+                    <button class="pause">pause</button>
+                    <button class="resume">Resume</button>
+                    <button class="stop">stop</button>
+                 </div>
+                 <div class="message"></div>
+            </div>
+            
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
