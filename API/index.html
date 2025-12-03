@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <h2>My To DO List</h2>
+      <div class="row">
+        <input type="text" class="inputTextTodo" placeholder="Enter task" >
+        <button type="button" class="addTask">Add Task</button>
+      </div>
+      <table id="tableMain">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Todo</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tableRows"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
